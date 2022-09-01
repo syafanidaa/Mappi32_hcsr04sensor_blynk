@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "XXXXXXXXXXX" //ID Template
-#define BLYNK_DEVICE_NAME "XXXXX" // Nama Device
-#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXXXXXXXXX" // Token dari Blynk
+#define BLYNK_DEVICE_NAME "XXXXX" // Nama Device/Device Name
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXXXXXXXXX" // Token dari Blynk /BLynk Token
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>  // Token dari Blynk
@@ -12,7 +12,7 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 
 
-char ssid[] = "XXXXXX";   // Nama Hotspot / WiFi
+char ssid[] = "XXXXXX";   // Nama Hotspot/Wifi/ Name Of Hotspot
 char pass[] = "XXXXXXXX"; // Password WiFi
 
 
